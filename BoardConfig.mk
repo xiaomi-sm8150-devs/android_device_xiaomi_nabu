@@ -17,5 +17,8 @@ TARGET_SCREEN_DENSITY := 360
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/nabu_defconfig
 
+# Properties
+TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+
 # Inherit from the proprietary version
 include vendor/xiaomi/nabu/BoardConfigVendor.mk
