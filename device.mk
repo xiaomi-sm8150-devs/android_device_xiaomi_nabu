@@ -21,5 +21,9 @@ TARGET_SCREEN_WIDTH := 1600
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/nabu/nabu-vendor.mk)
