@@ -20,8 +20,5 @@ TARGET_KERNEL_CONFIG := vendor/nabu_defconfig
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Recovery
-TARGET_RECOVERY_UI_BLANK_UNBLANK_ON_INIT := true
-
 # Inherit from the proprietary version
 include vendor/xiaomi/nabu/BoardConfigVendor.mk
