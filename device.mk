@@ -24,10 +24,25 @@ PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface
 
+# Consumer IR
+BOARD_HAVE_IR := false
+
+# Fingerprint
+BOARD_HAVE_FP := false
+
+# FM
+BOARD_HAVE_QCOM_FM := false
+
+# GPS
+BOARD_HAVE_GNSS := false
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
+
+# RIL
+BOARD_HAVE_RIL := false
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -35,6 +50,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Vibrator
+BOARD_HAVE_VIBRATOR := false
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/nabu/nabu-vendor.mk)
