@@ -23,5 +23,5 @@ PRODUCT_MODEL := 21051182G
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="nabu_global-user 13 RKQ1.200826.002 V816.0.1.0.TKXMIXM release-keys" \
-    BuildFingerprint=Xiaomi/nabu_global/nabu:13/RKQ1.200826.002/V816.0.1.0.TKXMIXM:user/release-keys
+    BuildDesc="nabu_global-user 13 RKQ1.200826.002 V816.0.6.0.TKXMIXM release-keys" \
+    BuildFingerprint=Xiaomi/nabu_global/nabu:13/RKQ1.200826.002/V816.0.6.0.TKXMIXM:user/release-keys

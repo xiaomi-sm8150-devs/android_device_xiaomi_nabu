@@ -1,4 +1,4 @@
-# Unpinned blobs from nabu_global-user 13 RKQ1.200826.002 V816.0.1.0.TKXMIXM release-keys
+# Unpinned blobs from nabu_global-user 13 RKQ1.200826.002 V816.0.6.0.TKXMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
